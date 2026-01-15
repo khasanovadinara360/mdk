@@ -1,5 +1,37 @@
-venv/
+# Python
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
-*.DS_Store
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+*.csv
+*.json
+*.txt
+data/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Результаты работы
+collecting_from_api/data/*
+parsing/data/*
+!collecting_from_api/data/.gitkeep
+!parsing/data/.gitkeep
